@@ -1,0 +1,28 @@
+decisions = {
+    form_AAA = {
+        icon = generic_form_nation
+        allowed = {
+            OR = {
+                tag = AUS
+                tag = HUN
+                tag = AST
+            }
+        }
+        visible = {
+            controls_state = 64 # Exemple : Vienne
+            controls_state = 69 # Exemple : Budapest
+            controls_state = 90 # Exemple : Canberra
+        }
+        cost = 150
+        complete_effect = {
+            set_country_flag = formed_AAA
+            change_tag_from = ROOT to = AAA
+            add_political_power = 200
+            add_stability = 0.1
+            add_ideas = national_unity
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
