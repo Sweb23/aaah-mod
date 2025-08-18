@@ -69,6 +69,7 @@ decisions = {
 	   controls_state = 28
 	   controls_state = 35
 	   controls_state = 51
+       controls_state = 42
 	}
         cost = 150
         complete_effect = {
@@ -82,6 +83,7 @@ decisions = {
             28 = { add_core_of = ROOT }
             35 = { add_core_of = ROOT }
             51 = { add_core_of = ROOT }
+            42 = { add_core_of = ROOT }
             # Australia
             custom_effect_tooltip = form_country_australia_coring_states_tt # TODO
 			hidden_effect = {
