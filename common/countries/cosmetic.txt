@@ -1,0 +1,5 @@
+#use_legacy_ai_pp_spend = yes
+AAA = {
+	color = { 172  173  188 }
+	color_ui = { 172  173  188 }
+}

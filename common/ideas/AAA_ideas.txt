@@ -3,7 +3,11 @@ ideas = {
         AAA_national_unity = {
             allowed = {
                 always = no
-                tag = AAA
+                OR = {
+                    tag = AUS
+                    tag = AST
+                    tag = HUN
+                }
             }
 
             allowed_civil_war = {
