@@ -1,0 +1,16 @@
+﻿l_english:
+  AAA:0 "Australasia-Austrasia-Austria-Hungary"
+  AAA_DEF:0 "Australasia-Austrasia-Austria-Hungary"
+  AAA_ADJ:0 "Australasian-Hungarian"
+
+  form_AAA:0 "Form Austrasia-Australia-Austria-Hungary"
+  form_AAA_desc:0 "By uniting Austria, Australia and Hungary, we will create a mighty empire."
+  form_country_australia_required_states_tt:0 "Controls all §YAustralian§! states."
+
+  AAA_national_unity:0 "Empire of Two Continents"
+  AAA_national_unity_desc:0 "Our empire unites Europe and Oceania."
+
+  aaa_event.1.t:0 "A Union Beyond Imagination"
+  aaa_event.1.desc:0 "Against all odds, Australasia, Austrasia, Austria, and Hungary have united into one empire!"
+  aaa_event.1.a:0 "Long live our Triple-A Empire!"
+  aaa_event.1.b:0 "What?"

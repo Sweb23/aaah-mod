@@ -1,0 +1,32 @@
+add_namespace = aaa_event
+
+# Formation of AAAH
+news_event = {
+	id = aaa_event.1
+	title = aaa_event.1.t
+	desc = aaa_event.1.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = aaa_event.1.a
+		trigger = {
+			OR = {
+				original_tag = AST
+				original_tag = AUS
+				original_tag = HUN
+			}
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = aaa_event.1.b
+		trigger = {
+			NOT = { original_tag = AST }
+			NOT = { original_tag = AUS }
+			NOT = { original_tag = HUN }
+		}
+	}
+}

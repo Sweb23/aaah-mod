@@ -9,20 +9,128 @@ decisions = {
             }
         }
         visible = {
-            controls_state = 64 # Exemple : Vienne
-            controls_state = 69 # Exemple : Budapest
-            controls_state = 90 # Exemple : Canberra
+            tag = AUS
+            tag = HUN
+            tag = AST
+            NOT {
+                has_global_flag = formed_AAA
+            }
         }
+	available = {
+	    is_subject = no
+	    # Australia
+	    custom_trigger_tooltip = {
+            tooltip = form_country_australia_required_states_tt #TODO
+            controls_state = 737
+            controls_state = 674
+            controls_state = 979
+            controls_state = 285
+            controls_state = 872
+            controls_state = 870
+            controls_state = 520
+            controls_state = 523
+            controls_state = 521
+            controls_state = 634
+            controls_state = 519
+            controls_state = 871
+            controls_state = 873
+            controls_state = 518
+            controls_state = 517
+            controls_state = 522
+	    }
+	   # Austria
+	   custom_trigger_tooltip = {
+            tooltip = form_country_austria_required_states_tt
+            controls_state = 975
+            controls_state = 4
+            controls_state = 976
+            controls_state = 153
+            controls_state = 152
+            controls_state = 848
+	   }
+	   # Hungary
+	   custom_trigger_tooltip = {
+            tooltip = form_country_hungary_required_states_tt
+            controls_state = 154
+            controls_state = 973
+            controls_state = 43
+            controls_state = 155
+            controls_state = 974
+	   }
+	   # New Zealand
+	   custom_trigger_tooltip = {
+            tooltip = form_country_nzealand_requires_states_tt # TODO
+            controls_state = 284
+            controls_state = 726
+            controls_state = 723
+	   }
+	   controls_state = 669
+	   controls_state = 18
+	   controls_state = 28
+	   controls_state = 35
+	   controls_state = 51
+	}
         cost = 150
         complete_effect = {
-            set_country_flag = formed_AAA
-            change_tag_from = ROOT to = AAA
+            set_global_flag = formed_AAA
+            set_cosmetic_tag = AAA
             add_political_power = 200
             add_stability = 0.1
-            add_ideas = national_unity
+            add_ideas = AAA_national_unity
+            669 = { add_core_of = ROOT }
+            18 = { add_core_of = ROOT }
+            28 = { add_core_of = ROOT }
+            35 = { add_core_of = ROOT }
+            51 = { add_core_of = ROOT }
+            # Australia
+            custom_effect_tooltip = form_country_australia_coring_states_tt # TODO
+			hidden_effect = {
+				737 = { add_core_of = ROOT }
+                674 = { add_core_of = ROOT }
+                979 = { add_core_of = ROOT }
+                285 = { add_core_of = ROOT }
+                872 = { add_core_of = ROOT }
+                870 = { add_core_of = ROOT }
+                520 = { add_core_of = ROOT }
+                523 = { add_core_of = ROOT }
+                521 = { add_core_of = ROOT }
+                634 = { add_core_of = ROOT }
+                519 = { add_core_of = ROOT }
+                871 = { add_core_of = ROOT }
+                873 = { add_core_of = ROOT }
+                518 = { add_core_of = ROOT }
+                517 = { add_core_of = ROOT }
+                522 = { add_core_of = ROOT }
+			}
+            # Austria
+            custom_effect_tooltip = form_country_austria_coring_states_tt
+            hidden_effect = {
+                848 = { add_core_of = ROOT }
+                153 = { add_core_of = ROOT }
+                152 = { add_core_of = ROOT }
+                4 = { add_core_of = ROOT }
+                975 = { add_core_of = ROOT }
+                976 = { add_core_of = ROOT }
+			}
+            # Hungary
+            custom_effect_tooltip = form_country_hungary_coring_states_tt
+            hidden_effect = {
+                155 = { add_core_of = ROOT }
+                43 = { add_core_of = ROOT }
+                973 = { add_core_of = ROOT }
+                974 = { add_core_of = ROOT }
+                154 = { add_core_of = ROOT }
+            }
+            # New Zealand 
+            custom_effect_tooltip = form_country_nzealand_coring_states_tt # TODO
+            hidden_effect = {
+                284 = { add_core_of = ROOT }
+                726 = { add_core_of = ROOT }
+                723 = { add_core_of = ROOT }
+            }
         }
         ai_will_do = {
-            factor = 1
+            factor = 200
         }
     }
 }

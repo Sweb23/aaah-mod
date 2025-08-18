@@ -1,0 +1,16 @@
+﻿l_french:
+ AAA:0 "Australasie-Austrasie-Autriche-Hongrie"
+ AAA_DEF:0 "l'Australasie-Austrasie-Autriche-Hongrie"
+ AAA_ADJ:0 "australasio-hongroise"
+
+ form_AAA:0 "Former l'Australasie-Austrasie-Autriche-Hongrie"
+ form_AAA_desc:0 "En unissant l'Autriche, l'Australasie, l'Austrasie et la Hongrie, nous créons un puissant empire."
+ form_country_australia_required_states_tt:0 "Contrôler tous les états §YAustraliens§!."
+
+ AAA_national_unity:0 "Empire des Deux Continents"
+ AAA_national_unity:0 "Notre empire unit l'Europe et l'Océanie."
+
+ AAA.1.t:0 "Une union impensable"
+ AAA.1.desc:0 "Contre toute attente, l'Autriche, l'Australasie, l'Austrasie et la Hongrie se sont unies en un seul empire !"
+ AAA.1.a:0 "Vive notre Empire Triple-A !"
+ AAA.1.b:0 "Quoi?"
