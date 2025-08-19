@@ -3,6 +3,8 @@
   AAA_DEF:0 "l'Australasie-Austrasie-Autriche-Hongrie"
   AAA_ADJ:0 "australasio-hongroise"
 
+  form_aaa_category:0 "Former l'Australasie-Austrasie-Autriche-Hongrie"
+  form_aaa_category_desc:0 "L'unification de l'Autriche et de la Hongrie ne suffit pas. Nous devons voir plus grand, et quoi de mieux que de s'emparer des terres lointaines de l'Australasie ? Mieux encore, en intégrant l'ancien royaume d'Austrasie à nos terres, nous deviendrons les maîtres incontestés de l'Europe."
   form_aaa:0 "Former l'Australasie-Austrasie-Autriche-Hongrie"
   form_aaa_desc:0 "En unissant l'Autriche, l'Australasie, l'Austrasie et la Hongrie, nous créons un puissant empire."
   form_country_australia_required_states_tt:0 "Contrôler tous les états §YAustraliens§!."
@@ -14,6 +16,6 @@
   AAA_national_unity:0 "Notre empire unit l'Europe et l'Océanie."
 
   AAA.1.t:0 "Une union impensable"
-  AAA.1.desc:0 "Contre toute attente, l'Autriche, l'Australasie, l'Austrasie et la Hongrie se sont unies en un seul empire !"
+  AAA.1.desc:0 "Contre toute attente, [From.GetOldName] s'est hissé au rang de puissance mondiale au cours des dernières années. Bien que l'Australasie ne soit rien de plus qu'une dénomination géographique et que l'Austrasie n'existe plus depuis un millénaire, les représentants de [From.GetOldName] ont choisi, compte tenu de leurs possessions territoriales actuelles, de les inclure dans le nom de leur nouvel empire : Australasie-Austrasie-Autriche-Hongrie. Partout, les analystes sont déconcertés par ces développements."
   AAA.1.a:0 "Vive notre Empire Triple-A !"
   AAA.1.b:0 "Quoi?"

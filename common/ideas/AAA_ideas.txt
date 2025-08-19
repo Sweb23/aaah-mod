@@ -15,7 +15,7 @@ ideas = {
 			}
 
             removal_cost = -1
-			picture = idea_generic_monarchist_uprising
+			picture = generic_monarchist_uprising
 			modifier = {
 				political_power_factor = 0.1
 			}
