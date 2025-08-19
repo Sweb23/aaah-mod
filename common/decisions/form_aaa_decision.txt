@@ -1,18 +1,11 @@
-AAA_formable_category = {
-    form_AAA = {
-        icon = decision_category_generic_formable_nation
+form_aaa_category = {
+    form_aaa = {
+        icon = generic_form_nation
         fire_only_once = yes
         allowed = {
-            OR = {
-                tag = AUS
-                tag = HUN
-                tag = AST
-            }
         }
         visible = {
-            tag = AUS
-            tag = HUN
-            tag = AST
+            is_subject = no
             NOT = {
                 has_global_flag = formed_AAA
             }
@@ -74,7 +67,13 @@ AAA_formable_category = {
         }
         cost = 150
         complete_effect = {
-            set_global_flag = formed_AAA
+            hidden_effect = {
+                set_global_flag = formed_AAA
+                news_event = {
+                    id = aaa_event.1
+                    hours = 6
+                }
+            }
             set_cosmetic_tag = AAA
             add_political_power = 200
             add_stability = 0.1

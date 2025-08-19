@@ -3,8 +3,8 @@
   AAA_DEF:0 "l'Australasie-Austrasie-Autriche-Hongrie"
   AAA_ADJ:0 "australasio-hongroise"
 
-  form_AAA:0 "Former l'Australasie-Austrasie-Autriche-Hongrie"
-  form_AAA_desc:0 "En unissant l'Autriche, l'Australasie, l'Austrasie et la Hongrie, nous créons un puissant empire."
+  form_aaa:0 "Former l'Australasie-Austrasie-Autriche-Hongrie"
+  form_aaa_desc:0 "En unissant l'Autriche, l'Australasie, l'Austrasie et la Hongrie, nous créons un puissant empire."
   form_country_australia_required_states_tt:0 "Contrôler tous les états §YAustraliens§!."
   form_country_nzealand_required_states_tt:0 "Contrôler tous les états §YNéo-Zélandais§!."
   form_country_australia_coring_states_tt:0 "Tous les états §YAustraliens§! deviennent des états nationaux."

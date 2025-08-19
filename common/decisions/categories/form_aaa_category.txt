@@ -1,0 +1,10 @@
+form_aaa_category = {
+	icon = decision_category_generic_formable_nation
+	allowed = {
+		OR = {
+			original_tag = AUS
+			original_tag = AST
+			original_tag = HUN
+		}
+	}
+}

@@ -3,8 +3,8 @@
   AAA_DEF:0 "Australasia-Austrasia-Austria-Hungary"
   AAA_ADJ:0 "Australasian-Hungarian"
 
-  form_AAA:0 "Form Austrasia-Australia-Austria-Hungary"
-  form_AAA_desc:0 "By uniting Austria, Australia and Hungary, we will create a mighty empire."
+  form_aaa:0 "Form Austrasia-Australia-Austria-Hungary"
+  form_aaa_desc:0 "By uniting Austria, Australasia and Hungary, we will create a mighty empire."
   form_country_australia_required_states_tt:0 "Controls all §YAustralian§! states."
   form_country_nzealand_required_states_tt:0 "Controls all §YNew Zealander§! states."
   form_country_australia_coring_states_tt:0 "Cores all §YAustralian§! states."
