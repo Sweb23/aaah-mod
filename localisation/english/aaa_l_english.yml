@@ -1,7 +1,13 @@
 ﻿l_english:
-  AAA:0 "Australasia-Austrasia-Austria-Hungary"
-  AAA_DEF:0 "Australasia-Austrasia-Austria-Hungary"
-  AAA_ADJ:0 "Australasian-Hungarian"
+  AAA_neutrality:0 "Australasia-Austrasia-Austria-Hungary"
+  AAA_neutrality_DEF:0 "Australasia-Austrasia-Austria-Hungary"
+  AAA_fascism:0 "Australasian-Austrasian-Austrian-Hungarian Empire"
+  AAA_fascism_DEF:0 "the Australasian-Austrasian-Austrian-Hungarian Empire"
+  AAA_democratic:0 "Confederation of Australasia-Austrasia-Austria-Hungary"
+  AAA_democratic_DEF:0 "the Confederation of Australasia-Austrasia-Austria-Hungary"
+  AAA_communism:0 "United Council Republics of Australasia-Austrasia-Austria-Hungary"
+  AAA_communism_DEF:0 "the United Council Republics of Australasia-Austrasia-Austria-Hungary"
+  AAA_ADJ:0 "Australasian-Austrasian-Austrian-Hungarian"
 
   form_aaa_category:0 "Form Australasia-Austrasia-Austria-Hungary"
   form_aaa_category_desc:0 "The unification of Austria and Hungary is not enough. We need bigger ambitions, and what better than to seize the far away lands of Australasia? Even more, by integrating the old kingdom of Austrasia in our lands, we will be the uncontested masters of Europe."

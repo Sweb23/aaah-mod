@@ -1,7 +1,13 @@
 ﻿l_french:
-  AAA:0 "Australasie-Austrasie-Autriche-Hongrie"
-  AAA_DEF:0 "l'Australasie-Austrasie-Autriche-Hongrie"
-  AAA_ADJ:0 "australasio-hongroise"
+  AAA_neutrality:0 "Australasie-Austrasie-Autriche-Hongrie"
+  AAA_neutrality_DEF:0 "l'Australasie-Austrasie-Autriche-Hongrie"
+  AAA_fascism:0 "Empire australasien-austrasien-austro-hongrois"
+  AAA_fascism_DEF:0 "l'Empire australasien-austrasien-austro-hongrois"
+  AAA_democratic:0 "Confédération d'Australasie-Austrasie-Autriche-Hongrie"
+  AAA_democratic_DEF:0 "la Confédération d'Australasie-Austrasie-Autriche-Hongrie"
+  AAA_communism:0 "Union des Républiques des Conseils d'Australasie-Austrasie-Autriche-Hongrie"
+  AAA_communism_DEF:0 "l'Union des Républiques des Conseils d'Australasie-Austrasie-Autriche-Hongrie"
+  AAA_ADJ:0 "Australasien-Austrasien-Autrichien-Hongrois"
 
   form_aaa_category:0 "Former l'Australasie-Austrasie-Autriche-Hongrie"
   form_aaa_category_desc:0 "L'unification de l'Autriche et de la Hongrie ne suffit pas. Nous devons voir plus grand, et quoi de mieux que de s'emparer des terres lointaines de l'Australasie ? Mieux encore, en intégrant l'ancien royaume d'Austrasie à nos terres, nous deviendrons les maîtres incontestés de l'Europe."
